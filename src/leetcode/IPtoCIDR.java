@@ -74,7 +74,7 @@ public class IPtoCIDR {
     public static void main(String[] args) {
         IPtoCIDR IPtoCIDR = new IPtoCIDR();
 
-        List<String> result = IPtoCIDR.ipToCIDR("1.0.0.1", 3);
+        List<String> result = IPtoCIDR.ipToCIDR("255.0.0.7", 10);
         System.out.println("=========================================");
         for (String str : result) {
             System.out.println(str);
