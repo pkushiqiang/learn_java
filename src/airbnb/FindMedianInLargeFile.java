@@ -43,7 +43,7 @@ public class FindMedianInLargeFile {
         int[] a1 = {1};
         int[] a = {1,2,3,4};
         int[] b = {1,2,3,4,8,23,89,194,-987,3,9,34,334,9493,-343,3234,35,3,4,3,4353943,1,324,19,22,33,889,97};
-        System.out.println(solution.findMedian(a1));
+        System.out.println(solution.findMedian(a));
     }
 
 }
